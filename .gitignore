@@ -1,0 +1,56 @@
+# Binários gerados
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Arquivos de compilação intermediários
+*.o
+*.obj
+*.lo
+*.slo
+
+# Arquivos de depuração
+*.gch
+*.pch
+*.pdb
+*.idb
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.temp
+
+# Diretórios de build
+build/
+Build/
+cmake-build-debug/
+cmake-build-release/
+
+# Ferramentas específicas
+.vscode/
+.idea/
+*.code-workspace
+
+# Arquivos de configuração do sistema
+*.DS_Store
+*.directory
+Thumbs.db
+
+# Make e CMake
+Makefile
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# Editor específico
+*~  # Arquivos temporários
+*.swp  # Arquivos de swap do vim
+*.swo
+
+# Outros
+tags
+*.bak
